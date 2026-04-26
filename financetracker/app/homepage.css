@@ -1,0 +1,7 @@
+body {
+    background-color: #F9EBE0;
+}
+.Title {
+    display: flex;
+    justify-content: center;
+}

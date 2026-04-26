@@ -1,4 +1,5 @@
 import '../credentials.css'
+import Link from 'next/link'
 
 export default function Signup() {
     return (
@@ -18,6 +19,14 @@ export default function Signup() {
                     
                     <label><b>Username </b></label>
                     <input type="text" placeholder="Enter Username" name = "username" required></input>
+
+                    <Link href = "/homepage">
+                        <button className="navButton">submit</button>
+                    </Link>
+                    <Link href ="/">
+                        <button className="navButton">back</button>
+                    </Link>
+                    
                 </div>
                 
             </body>

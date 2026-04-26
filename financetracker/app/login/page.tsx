@@ -1,5 +1,5 @@
 import '../credentials.css'
-
+import Link from 'next/link'
 export default function Login() {
     return (
         <html>
@@ -13,6 +13,16 @@ export default function Login() {
 
                     <label><b>Password </b></label>
                     <input type="text" placeholder="Enter Password" name = "password" required></input>
+
+                    <Link href="/homepage">
+                        <button className="navButton">submit</button>
+                    </Link>
+
+                    <Link href = "/">
+                        <button className="navButton">back</button>
+                    </Link>
+                    
+                    
                 </div>
             </body>
         </html>
