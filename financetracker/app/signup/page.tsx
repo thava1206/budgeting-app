@@ -5,7 +5,7 @@ export default function Signup() {
         <html>
             <body>
                 <div className="container">
-                    <h1>Signup page</h1>
+                    <h1>Sign Up Page</h1>
 
                     <label><b>Email </b></label>
                     <input type="text" placeholder="Enter Email" name = "email" required></input>
